@@ -1,5 +1,5 @@
 import { Button } from "./button";
-import { Meta, StoryObj } from "@storybook/nextjs-vite";
+import { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta: Meta<typeof Button> = {
   component: Button,
@@ -64,7 +64,7 @@ export const Disabled: Story = {
 export const MarketingCta: Story = {
   args: {
     children: "Button",
-    // variant: 'marketingcta',
+    variant: "marketingcta",
   },
 };
 
